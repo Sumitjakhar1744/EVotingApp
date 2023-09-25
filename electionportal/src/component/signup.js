@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../style/navbar.css";
+import toast from "react-hot-toast";
 
 const Signup = () => {
   const [selectedState, setSelectedState] = useState("");
