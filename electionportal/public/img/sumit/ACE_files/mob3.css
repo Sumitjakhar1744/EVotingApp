@@ -1,0 +1,1030 @@
+/* CONVERSATION PAGE- CONSOLIDATED REPLIES PAGE CSS  */
+.boardComment.visualIEFloatFix {
+    width: 90%;
+    margin: 4vw auto 4vw auto;
+    border: solid 2px #426AB2;
+    padding: 2vw;
+    background-color: white;
+    color:  #426AB2;
+}
+.boardCommentHeaderTitleBlock {
+    width: 90%;
+    margin: 4vw auto 4vw auto;
+    border: solid 1px #426AB2;
+    padding: 2vw;
+    background: white;
+    color:  #426AB2;
+}
+h1.documentFirstHeading {
+    display: none;
+}
+p.mtitle {
+    display: none;
+}
+.mheader {
+    display: none;
+}
+/* LOGIN PAGE CSS  */
+p.mtitle {
+    display: none;
+}
+fieldset#login-form {
+    border: 0px;
+}
+form#mobile_login_form {
+    width: 90%;
+    margin: 4vw auto 4vw auto;
+    border: solid 2px #426AB2;
+}
+.field {
+    margin: 2vw;
+}
+.field label {
+    font-size: 5vw;
+}
+input#__ac_password, input#__ac_name {
+    max-height: 24pt;
+    color: #3c71ba;
+    background-color: #fff;
+    -webkit-background-color: #3c71ba;
+    height: 7vw;
+    background-clip: padding-box;
+    border: solid .8px #3c71ba;
+    font-size: 3.6vw;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    -webkit-appearance: none;
+    width: 100%;
+    margin-top: 8px;
+    -webkit-appearance: none;
+}input.context {
+    max-height: 24pt;
+    color: #fff;
+    background-color: #3c71ba;
+    -webkit-background-color: #3c71ba;
+    height: 19pt;
+    background-clip: padding-box;
+    border: none;
+    font-size: 4vw;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    -webkit-appearance: none;
+    margin: 2vw;
+    width: 96%;
+}
+/* LOGIN PAGE CSS ENDS */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  a{text-decoration: none;
+ 
+  
+  }
+
+  #m_header{
+    margin: 3vw auto 0vw auto;
+    width: 90%;
+    display:table;
+  }
+  #m_header div{
+   
+      
+      
+  }
+  #mlogo{
+   display: table-cell;
+    width: 50%;
+  }
+  #ham_menu{
+      display: table-cell;
+    width: 50%;
+    padding-bottom: 4px;
+     vertical-align: bottom;
+     
+  
+  }
+  #ham_bars{
+    text-align:right;
+
+  }
+  #ham_bars a{
+   
+  
+  }
+
+#lan_icon{ padding: 0px 20px 0px 0px; }
+#pn_icon{padding: 0px 20px 0px 0px; }
+#menu_icon{ padding: 0px 0px 0px 0px; }
+
+   .fa-bars:before{
+      content: "\f0c9";
+      font-size: 2.1em;
+      color: #426AB2 ;
+  }
+  .fa-search:before {
+      content: "\f002";
+      font-size: 2em;
+      color: #426AB2 ;
+  }
+.fa-folder-open-o:before {
+    content: "\f115";
+    color: #ca252c;
+}
+  
+  .fa-times:before {
+      content: "\f00d";
+      font-size: 2em;
+      color: #ca252c;
+  }
+  .fa-language:before {
+    content: "\f1ab";
+    font-size: 1.7em;
+    color: #426AB2 ;
+}
+.fa-group:before, .fa-users:before {
+    content: "\f0c0";
+    font-size: 1.6em;
+    color: #426AB2;
+}
+  
+  .hr_header {
+      border: solid 0.7px #ca252c;
+      background-color: #ca252c;
+      width: 100%;
+      margin-top: 15px;
+      margin-bottom:0px;
+  }
+  /* MENU CSS*/
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #fba619;
+    color: white;
+    cursor: pointer;
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+  .topnav{
+      background-color: #426AB2;
+      width: 100%;
+      
+  }
+  
+  .topnav a{
+      display: none;
+  
+  }
+  
+  .topnav.responsive a {
+     
+    display: block;
+    height: 2em;
+    line-height: 2em;
+    color: white;
+    padding-bottom: 1px;
+    width: 90%;
+    margin: 1px auto 2px auto;
+    text-decoration: none;
+    border-bottom: solid 0.8px white;
+      
+      
+    }
+  .responsive a:hover {
+    
+      color: #01fff2;
+    }
+
+ 
+.lang-selection-menu{
+    background-color: #426AB2;
+    width: 100%;
+    
+}
+
+.lang-selection-menu a{
+    display: none;
+
+}
+
+.lang-selection-menu.isactive a {
+   
+  display: block;
+  height: 2em;
+  line-height: 2em;
+  color: white;
+  padding-bottom: 1px;
+  width: 90%;
+  margin: 1px auto 2px auto;
+  text-decoration: none;
+  border-bottom: solid 0.8px white;
+    
+    
+  }
+.isactive a:hover {
+     
+    color: #01fff2;
+  }
+
+
+
+    /* ABOUT ACE CSS STARTS*/  
+#aboutace {
+    font-size: 4vw;
+    width: 90%;
+    margin: auto;
+    border: solid 0.8px white;
+
+}
+.aboutace-section{
+    background: #426AB2;
+    padding: 22px 0 22px 0;
+    margin-top:4vw;
+    margin-bottom: 4vw;
+}
+div#aboutace-text {
+    padding: 0 10px 0 10px;
+color:white;
+}
+
+/*Titile Div*/
+.title_div{
+    width:90%;
+    font-size: 6vw;
+    margin: 3vw auto 3vw auto;
+    color:#426AB2;
+}
+
+    /* ICON BOX CSS STARTS*/
+  
+  
+  .shortcut_icon_box{
+      display: table;
+      margin: 6vw auto 6vw auto;
+      width:90%;  
+      
+      border: solid 0.8px  #426AB2;
+  }
+  .eql-size{
+      display:table-cell;
+      width: 50%;
+  }
+      
+  .icon_text_box{
+      background-color:  #426AB2;
+      color:white;
+      padding: 20px 10px 20px 10px;
+      text-align: center;
+      vertical-align: middle;
+    font-size: 4vw;
+  }
+  .icon_img_box{
+      vertical-align: middle;
+      text-align: center;
+      font-size: 4vw;
+      padding-bottom:6px;
+       
+  }
+  .icon_img{
+      padding: 2px 3px 5px 3px;   
+           
+  }
+  .icon_img img{
+      padding: 2px 0 5px 0px;   
+      width: 53%;     
+  }
+  .icon_title{
+      color: #426AB2;
+      font-size: 4.4vw;
+    font-weight: 400;
+      padding: 3px 0 3px 0;
+  }
+  #tag-msz{     
+        color:#477BB7;
+        width:100%; 
+        text-align:center;  
+        font-size: 5vw;
+        align-content: center; 
+        margin: 2vw 0 2vw 0;
+        font-family:poppins;
+  }
+  #tag-msz{
+      padding: 0px;
+      margin:0px !important;
+  }
+
+
+#mob_search_box{
+    width:90%;
+    margin:auto;
+    display: table;
+    padding-top: 8px;
+}
+.search_select {
+    color: #477BB7;
+    background-color: #fff;
+    font-size: 4vw;
+    /* height: 14pt; */
+    background-clip: padding-box;
+    padding-left: 2px;
+    border: none;
+     
+}
+
+
+#search_keyword{
+    display: table-cell;
+    width:75%;
+    border: 1px solid #3c71ba;
+    padding: 0 5px 0 5px;
+    height: 15pt;
+    max-height: 15pt;
+}
+.search_button {
+    max-height: 24pt;
+    color: #fff;
+    background-color: #3c71ba;
+    -webkit-background-color: #3c71ba;
+    height: 19pt;
+    background-clip: padding-box;
+    border: none;
+    font-size: 4vw;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#search_button{
+    display: table-cell;
+    width: 30%;
+    border: 1px solid #3c71ba;
+    background-color: #426AB2;
+    -webkit-background-clip: border-box ;
+}
+#search_keyword input{
+   
+    width:100%;
+}
+#search_button input{
+    
+    width: 100%;
+}
+  hr.hr_line {
+      background-color: #426AB2;
+      margin-top: 0.7em;
+      margin-bottom: 0.7em;
+      width: 100%;
+  }
+  
+  /* Calendar CSS here*/
+  
+  .mcalendar{
+      margin: auto;
+      width: 90%;
+      
+  }
+  .flag_box{
+  display: table;
+  margin: auto;
+  width:90%;
+  margin-left: 0px;
+  }
+  .flag_box_div{
+      display:table-cell;
+      vertical-align: top;
+  }
+  #flag_image{
+    width: 75px;
+    margin: 2px 17px 10px 1px;
+    border: solid 0.8px #dddddd;
+  }
+  #country_name{
+      font-size: 4.7vw;
+      font-weight: 800;
+  }
+  #elec_date{
+      font-size: 4vw;
+  }
+  #election_type{
+      font-size: 4vw;
+  }
+  .flag-img-box{
+  max-width: 135px;
+  
+  }
+  .flag-detail-box{
+  color: black;
+   
+  }
+  .home_title{
+    color: #426AB2;
+    font-size: 6vw;
+  font-weight: 400;
+  padding-bottom: 10px;
+  }
+
+  /*ACE Partners*/
+.macepartners{
+    margin: auto;
+    width: 90%;
+    
+}
+#pname{
+    color: #426AB2;
+    font-size: 5.6vw;
+    font-weight: 600;
+}
+.partner_image img{
+    max-height: 100px;
+    max-width:100px;
+}
+.slideshow-container p{
+    font-size: 4vw !important;
+    color: #505050;
+    text-decoration:none;
+    margin:0;
+    padding 0;
+}
+.slideshow-container a{
+    text-decoration: none ; 
+    color: black;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -100px;
+ 
+    color:  #426AB2;
+    font-weight: bold;
+    font-size: 10vw;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0);
+    color:  #426AB2;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      padding: 5px 0 10px 0;
+       background: whtie;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 6px;
+    width: 6px;
+    margin: 0 2px;
+    background-color:#426AB2;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color:#ca252c ;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+
+
+  /* FOOTER SECTION*/
+
+  .footer-section{
+      background-color: #426AB2;
+      width: 100%;
+      margin: auto;
+      padding-bottom: 20px;
+padding-top:5px;
+      color: white;
+      font-size: 5vw;
+  }
+  .lang-selection{
+      width: 90%;
+      margin:7px auto 0 auto;
+      text-align: center;
+      padding-top:5px;
+  }
+  .social-network{
+    width: 90%;
+    margin:10px auto 0 auto;
+    text-align: center;
+    padding-top:5px;
+  }
+    .social-network [class*="fa fa-"] {
+        background-color: #fff;
+        border-radius: 15px;
+        color: #477bb7;
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        margin: auto 3px;
+        width: 30px;
+        font-size: 23px;
+        text-align: center;
+    }
+ 
+.partner-logo{
+    margin: 10px auto 10px auto;
+    padding: 10px;
+}
+.imp-links{
+    width: 90%;
+    margin:10px auto 0 auto;
+    text-align: center;
+     
+}
+.mbuttons{
+    text-decoration: none;
+    display: inline-block;
+    color: #fbfcff;
+    padding: 5px;
+    margin: 10px 3px 0 3px;
+   
+    border: solid 0.8px white;
+    font-size: 4vw;
+    width: 40%;
+}
+
+
+
+ /* ENCYCLOPAEDIA MOBILE DESIGNS */
+  
+.topic_box{
+    width: 90%;
+
+    max-height: 300px;
+    margin: 5vw auto 5vw auto;
+    display: block;
+    color: white;
+    position: relative;
+}
+.subtopic_box{
+    display:table-cell;
+    vertical-align:middle;
+}
+.subtopic_box a{
+    display: block;
+    text-decoration: none;
+    color: white;
+
+}
+.topic_title{
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    border-bottom: solid 0.8px white;
+}
+.topic_links a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    margin: 1vw 0 1vw 0;
+}
+.sub_topic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+     
+    width: 90%;
+    text-align: center;
+}
+.bl1 {
+    background-color: #406ab4;
+    color: #fff;
+    height: 170px;
+}
+.yel {
+    background-color: #f9a61a;
+    color: #fff;
+    height:205px;
+}
+
+.bl2 {
+    background-color: #0773bb;
+    color: #fff;
+    height:142px;
+}
+.red1 {
+    background-color: #cc222d;
+    color: #fff;
+    height: 215px;
+}
+.gre1 {
+    background-color: #54813e;
+    color: #fff;
+    height: 260px;
+}
+
+.gre1 .sub_topic {  top: 60%;  }
+.red1 .sub_topic {  top: 62%;  }
+.bl1 .sub_topic {top: 64%;}
+.bl2 .sub_topic {  top: 65%;  }
+.yel .sub_topic {  top: 63%;  }
+
+
+
+
+.titile-content a {
+    text-decoration: none;
+    color: #333 !important;
+}
+
+
+/* About ACE Page */
+  .about-this{
+            width:100%;
+            margin: 20px 0px 20px 0px;
+           
+        }
+
+        .about-this-text{
+            margin:auto;
+            width: 90%;
+            border: solid 0.8px #426ab2;
+           
+            color:#426ab2;
+        }
+
+   .about-text-p{
+            padding: 20px 15px 20px 15px;
+        }
+
+  .mob-partners{
+            width:100%;
+            margin: 20px 0px 20px 0px;
+            
+
+
+        }
+        .partner-alone{
+            margin:auto;
+            width: 90%;
+            border: solid 0.8px #426ab2;           
+            color:#426ab2;
+            margin-bottom: 3vw;
+            margin-top: 3vw;
+        }
+        .partner-image{
+            margin:auto;
+            width: 100%;
+            text-align: center;
+        }
+        .partner-desc{
+            padding: 10px 20px 10px 20px;
+            color:#426ab2;
+
+        }
+        .partner-title{
+            font-size: 5vw;
+            margin-bottom: 1vw;
+        }
+
+
+
+/* COMPARATIVE DATA CSS */
+#q_description{
+    color: #426ab2;
+    height: 4vw;
+}
+.cd_intro{
+    padding: 5px 10px 15px 10px;
+    border: solid .8px #426ab2;
+    font-size:4vw;
+    color: #426ab2;
+}
+    select.form-control-cd{
+                max-height: 24pt;
+                color: #3c71ba;
+                background-color: white;
+                -webkit-background-color: #3c71ba;
+                height: 7vw;
+                background-clip: padding-box;
+                border: solid 0.8px #3c71ba;
+                font-size: 3.6vw;
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+                -webkit-appearance: none;
+                width: 100%;
+                margin-top: 8px;
+                padding-left: 10px;
+                width: 100%;
+                -webkit-appearance: none;
+    }
+      .cd_body{
+          width:90%;
+          margin:auto;
+      }
+      .cd_head{
+          width:90%;
+          margin:auto;
+      }
+        .datamaps-legend dl dt {
+            position: relative;
+         
+            left: 30px;
+            clear: both;
+            padding-bottom: 5px;
+            font-weight: 400
+        }
+        
+        .datamaps-legend dl dd {
+            position: relative;
+            width: 20px;
+            left: -450px;
+            z-index: -1;
+            margin-bottom: 5px
+        }
+        
+        .datamaps-legend dl dt:hover {
+            background-color: #ddd
+        }
+        
+        a.teaser {
+            line-height: 20px
+        }
+        
+        a.teaser:hover,
+        a.selected:link,
+        a.selected:visited {
+            background-color: #ddd
+        }
+        
+        .documentContent {
+            
+        }
+        
+        g.labels text {
+            font-family: helvetica neue, Helvetica, Arial, sans-serif;
+            font-size: 10px
+        }
+        
+        path.slice {
+            stroke-width: 2px
+        }
+        
+        polyline {
+            opacity: .3;
+            stroke: #000;
+            stroke-width: 2px;
+            fill: none
+        }
+        
+        #teaser_container ul li {
+            margin-bottom: 0
+        }
+        
+        .datamaps-legend {
+            width: 300px
+        }
+        
+        .datamaps-legend dl dt {
+            position: relative;
+            width: 220px;
+            left: 30px;
+            clear: both;
+            padding-bottom: 5px
+        }
+        
+        .datamaps-legend dl dd {
+            position: relative;
+            width: 20px;
+            left: -220px;
+            z-index: -1;
+            margin-bottom: 5px
+        }
+        
+        .datamaps-legend dl dt:hover {
+            background-color: #ddd
+        }
+        
+        #worldmap_container {
+            position: relative;
+            width:300px;
+            height:250px;
+            max-width:300px;
+            max-height:250px;
+            
+            top: 0
+        }
+        .datamaps-legend::before {
+            content: "Choose a subject:";
+            color:#426ab3;
+        }
+        
+        .datamaps-legend::before {
+            content: "Choose a subject:";
+            color:#426ab3;
+            font-size:3vw;
+        }
+        
+        #piechart_container::before{
+            content: "Scroll the chart to see the labels:";
+            color:#426ab3;
+            font-size:3vw;
+        }
+        
+        #piechart_container {
+            
+            width:300px;
+            height:270px;
+            max-width:300px;
+            max-height:270px;
+            overflow: scroll;
+            
+        }
+        
+        #barchart_container {
+            
+           
+            width:300px;
+            height:250px;
+            max-width:300px;
+            max-height:250px;
+            overflow: scroll;
+            
+        }
+        
+        #datalinks_container {
+            position: relative;
+            top: -40px;
+            left: 300px;
+        
+        }
+        
+        #spinner_container_pie {
+          
+            min-height: 20px
+        }
+        
+        .datamap {
+            overflow: hidden
+        }
+    input.form-control-cd{
+                max-height: 24pt;
+                color: #3c71ba;
+                background-color: white;
+                -webkit-background-color: #3c71ba;
+                height: 7vw;
+                background-clip: padding-box;
+                border: solid 0.8px #3c71ba;
+                font-size: 3.6vw;
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+                -webkit-appearance: none;
+                width: 100%;
+                margin-top: 8px;             
+                -webkit-appearance: none;
+    }
+
+/*  LATEST UPDATES */
+                .lu_title{
+                    
+                    border-bottom: 10px solid #3573c6;
+                    color: #3573c6;
+                    height: 9vw;
+                    font-size: 5vw;
+                    margin-bottom: 2vw;
+                }
+    
+                .lu_box{
+                    width: 90%;
+                    margin: auto;
+                    margin-bottom: 4vw;
+                }
+/*  find an expert*/
+
+  .lu_title{
+                            
+                            border-bottom: 10px solid #3573c6;
+                            color: #3573c6;
+                            height: 9vw;
+                            font-size: 5vw;
+                            margin-bottom: 2vw;
+                        }
+            
+                        .lu_box{
+                            width: 90%;
+                            margin: auto;
+                            margin-bottom: 4vw;
+                        }
+        
+                        .listingBar {
+                            visibility: hidden;
+                        }
+
+                        #t1, #t2, #t3{
+                            display:block;
+                        }
+           #pn_image{
+            width: 120px;
+            margin-right: 2vw;
+           }
+            .expert_box{
+                margin:auto;
+                width:90%;
+                
+
+            }     
+            .expert_intro{
+                padding: 10px 10px 10px 10px;
+                          border: solid .8px #426ab2;
+                          font-size: 4vw;
+                          color: #426ab2;
+                          min-height: 168px;
+                            
+              }
+              #t2 a{
+                  font-size: 5vw;
+                  text-decoration: none;
+                  color: #426ab2;
+              }
+
+              .expert_message{
+               
+                padding: 10px 10px 10px 10px;
+                border: solid .8px #426ab2;
+                font-size: 4vw;
+                color: #426ab2;
+                
+
+              }
+              .expert_message_box{
+                margin:auto;
+                width:90%;
+              }
+
+
+.bridge_box{color:red;}
+
+/*  FOR ARABIC AND FRENCH HOME PAGE CSS */
+               .enc_link a{
+                            text-decoration: none;
+                            display: block;
+                            color: #426ab2;
+                            font-size: 4.4vw;
+                            font-weight: 400;
+                            width: 90%;
+                            line-height: 6vw;
+                            padding: 2px 0 2px 0;
+               }
+               .enc_hr{
+                            height: 1px;
+                            background-color: #426ab2;
+                            width:90%;
+                            margin: 2vw auto 2vw auto;
+               }
+               .enc_link{
+                            width: 90%;
+                            margin: auto;
+                            padding: 5px 5px 5px 5px;
+                        }
+
+                .lang-selection a{
+
+            
+                        text-decoration: none;
+                        color: white;
+                    
+                 }

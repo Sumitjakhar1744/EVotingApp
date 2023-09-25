@@ -1,0 +1,588 @@
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css");
+@import url("https://cdn.tailwindcss.com");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+/* @import '~bootstrap/scss/bootstrap'; */
+
+/* Css for the navigation bar*/
+.Navigation {
+
+
+    height: 70px;
+    width: 100%;
+    background-color: rgb(9, 3, 120);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    display: flex;
+    height: 70px;
+    width: 500px;
+    align-items: center;
+
+}
+
+.nav-logo_img {
+    background-image: url("../img/logo_1.png");
+    height: 70px;
+    width: 80px;
+    background-size: cover;
+    overflow: hidden;
+    mix-blend-mode: lighten;
+    margin-left: 25px;
+    margin-bottom: 25px;
+
+}
+
+.logo-title {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+
+
+}
+
+.logo-name {
+    font-size: 2rem;
+    margin-top: 5px;
+    /* margin-bottom: 0px; */
+    font-weight: 700;
+
+}
+
+.logo-tag-line {
+    margin-left: 110px;
+    align-content: top;
+    font-style: italic;
+    font-size: 0.80rem;
+    padding-bottom: 10px;
+    
+
+}
+
+.nav-tabs {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-end;
+
+
+
+
+}
+
+.nav-tabs a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+
+
+
+/* Css for the master area of the page*/
+/* Hero Section */
+
+.hero-section {
+    background-image: url("../img/e-voting-1024x415/e-voting-1024x415.png");
+    background-size: cover;
+    height: 500px;
+}
+
+.hero-msg {
+    position: relative;
+    top: 110px;
+    left: 100px;
+    color: white;
+    /* border: 2px solid white; */
+    height: 200px;
+    width: 350px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.hero-wlm {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+
+.hero-tagline {
+    font-style: italic;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+/* styles.css */
+.custom-button {
+    /* Add basic styles */
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 4rem;
+}
+
+/* Add hover effect */
+.custom-button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+/* Cards  */
+
+.container {
+    margin-bottom: 2rem;
+
+}
+
+.card-box {
+    height: 600px;
+}
+
+.card-box img {
+    height: 14rem;
+    width: 18rem;
+    border-radius: 2rem;
+}
+
+.card-box:hover {
+    box-shadow: rgba(147, 157, 105, 0.2) 0 8px 24px;
+}
+
+.card_title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* Footer css */
+
+.footer {
+    position: relative;
+    /* bottom: 0px; */
+    height: 300px;
+    background-color: rgb(9, 3, 120);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.foot-logo_img {
+    background-image: url(../img/logo_1.png);
+    height: 170px;
+    width: 200px;
+    background-size: cover;
+    overflow: hidden;
+    mix-blend-mode: lighten;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.footer-col {
+    width: 25%;
+    padding: -1 15px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+h4 {
+    color: white;
+    padding: 40px;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+}
+
+.footer {
+    /* background-image: url("../img/background.png"); */
+    padding: 5px 0;
+    /* position: fixed; */
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100vv;
+    height: 372px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.copyright p {
+    margin-bottom: 10rem;
+    text-align: center;
+    padding: 0px;
+    color: turquoise;
+    font-size: 10px;
+}
+
+.footer img {
+    height: 140px;
+    width: 270px;
+    padding: 10px;
+    mix-blend-mode: lighten;
+    position: relative;
+    left: 40%;
+
+}
+
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.follow {
+    padding: 10px;
+}
+
+.social-links {
+    padding: 10px;
+}
+
+/*reponsive */
+@media(max-width:767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* Login form */
+login_form main {
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    height: 680px;
+
+}
+
+.login-form {
+    border: 2px solid black;
+    border-radius: 4px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 100px;
+    /* margin-top: 100px; */
+}
+
+.login {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.have-acc {
+    display: flex;
+}
+
+#create-acc {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.password-input {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer;
+}
+.pass-function{
+    display: flex;
+    justify-content: space-between;
+}
+.remember-pass{
+    display: flex;
+}
+#rememberPassword{
+    height: 1.5rem;
+    border-color: black;
+}
+.forgot-pass{
+    color: aliceblue;
+    text-decoration: underline;
+}
+.captcha-enter{
+    display: flex;
+}
+#captchaProblem{
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: aliceblue;
+    font-family: 'OCR-A', monospace;
+}
+.login-btn{
+    align-items: center;
+    width: 150px;
+    padding: 8px;
+    padding-left: 50px;
+    margin-bottom: 10px;
+    margin-left: 308px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: aliceblue;  
+}
+
+
+
+
+
+/* CSS for the registration page*/
+.sighnup_form main {
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.optional-fld {
+    width: 100%;
+    padding: 8px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.reg-form {
+    border: 2px solid black;
+    border-radius: 4px;
+
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-rows {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.id-proof{
+    display: flex;
+}
+
+
+
+
+
+/* About Us page css*/
+.aboutus{
+    border: 2px solid #bbbbbb;
+    margin: 30px;
+    border-radius: 4px;
+    box-shadow: #bbbbbb;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading{
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+#mission{
+    font-size: 1.5rem;
+}
+.values{
+    margin-left: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.thankyou_section{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+/*Hepl/FAQs page CSS */
+.help_policy{
+    border: 2px solid #bbbbbb;
+    margin: 30px;
+    border-radius: 4px;
+    box-shadow: #bbbbbb;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#title{
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#sub_title{
+    font-size: 1.5rem;
+    font-weight: 580;
+    text-decoration: underline; 
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#questions{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+
+
+
+/* Voter's Education page CSS*/
+.education {
+    border: 2px solid #bbbbbb;
+    margin: 30px;
+    border-radius: 4px;
+    box-shadow: #bbbbbb;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.edu-content {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.edu-content-img {
+    background-image: url("../img/my-vote-matters3.jpg.b5c9164a58f5e5e6adab6979ea17950c.jpg.93ddd47fc4b9a1aa9d3b30ef48c59ccb.jpg");
+    background-size: cover;
+    background-position: center;
+    /* height: 100%; */
+}
